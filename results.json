@@ -1,0 +1,72 @@
+[
+  {
+    "description": "    As an user\n    I should be able to login to Rocketseat app\n    In order to access all my classes",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "login;login-with-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login with wrong credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "login page is open",
+            "match": {
+              "location": "features/step_definitions/login.step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I provide wrong credentials",
+            "match": {
+              "location": "features/step_definitions/login.step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should get the wrong credentials message",
+            "match": {
+              "location": "features/step_definitions/login.step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

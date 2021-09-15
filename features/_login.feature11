@@ -1,0 +1,13 @@
+Feature: Login
+
+    As an user
+    I should be able to login to RocketSeat platform
+    In order to access all my classes
+
+    Background: RocketSeat app must be open
+        Given Rocketseat app is open
+
+    Scenario: Login attempt with incorrect credentials
+        When I provide a 'incorrect' 'username'
+        And I provide a 'incorrect' 'password'
+        Then I should get the 'Incorrect Credentials' message
