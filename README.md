@@ -1,6 +1,6 @@
 <img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-# Formulários no ReactJS com Formik & Yup
+# Automação de testes com protractor e cucumber BDD
 
 Nesta aula, vamos aprender a construir uma automação E2E utilizando Protractor e Cucumber BDD. Mas antes, alguns conceitos importantes sobre BDD, automação, pirâmide de testes e boas práticas de testes de software. 
 
